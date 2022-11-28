@@ -23,7 +23,7 @@ import java.util.Locale
 
 class HentaiVN : ParsedHttpSource() {
 
-    override val baseUrl = "https://hentaivn.la"
+    override val baseUrl = "https://hentaivn.in"
     override val lang = "vi"
     override val name = "HentaiVN"
     override val supportsLatest = true
