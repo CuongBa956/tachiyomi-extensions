@@ -73,7 +73,7 @@ class HentaiVN : ParsedHttpSource() {
 
     override fun chapterListRequest(manga: SManga): Request {
         val mangaId = manga.url.substringAfterLast("/").substringBefore('-')
-        return GET("https://hentaivn.fun/list-showchapter.php?idchapshow=$mangaId", headers)
+        return GET("https://hentaivn.in/list-showchapter.php?idchapshow=$mangaId", headers)
     }
 
     override fun imageUrlParse(document: Document) = ""
